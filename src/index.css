@@ -37,6 +37,7 @@ a {
   font-weight: 500;
   color: var(--primary);
   text-decoration: inherit;
+  width: max-content;
 }
 a:hover {
   color: var(--primary-dark);
