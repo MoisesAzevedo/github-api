@@ -29,15 +29,23 @@ Uma aplicação front-end que consome a API pública do GitHub. Permite buscar u
 ```bash
 # Clone o repositório
 git clone https://github.com/MoisesAzevedo/github-api.git
+```
 
+```bash
 # Acesse a pasta
 cd github-api
+```
 
+```bash
 # Instale as dependências
 npm install
+```
 
+```bash
 # Inicie o servidor de desenvolvimento
 npm run dev
+```
 
+```bash
 # Acesse em http://localhost:5173
 ```
