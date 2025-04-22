@@ -24,33 +24,33 @@ Uma aplicação front-end que consome a API pública do GitHub. Permite buscar u
 - Axios
 - GitHub REST API
 
-## Como rodar o projeto localmente
+# Como rodar o projeto localmente
 
-# Clone o repositório
+## Clone o repositório
 
 ```bash
 git clone https://github.com/MoisesAzevedo/github-api.git
 ```
 
-# Acesse a pasta
+## Acesse a pasta
 
 ```bash
 cd github-api
 ```
 
-# Instale as dependências
+## Instale as dependências
 
 ```bash
 npm install
 ```
 
-# Inicie o servidor de desenvolvimento
+## Inicie o servidor de desenvolvimento
 
 ```bash
 npm run dev
 ```
 
-# Acesse em
+## Acesse em
 
 ```bash
 http://localhost:5173
