@@ -1,0 +1,171 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  .background {
+    display: flex;
+    position: fixed;
+
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    .grid_svg {
+      width: 239px;
+      height: 225px;
+
+      top: 28px;
+      left: 71px;
+      position: absolute;
+    }
+
+    .ellipse_1_svg {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      width: 643px;
+      height: 620px;
+    }
+
+    .ellipse_2_svg {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      width: 259px;
+      height: 612px;
+    }
+  }
+
+  .container {
+    width: 1156px;
+    height: 537px;
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 804px;
+      height: 100%;
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 11px;
+
+        margin-top: 49px;
+
+        .profile_title {
+          font-size: 60px;
+          font-weight: 600;
+        }
+      }
+
+      .input_search {
+        margin-top: 27px;
+
+        width: 503px;
+        height: 62px;
+      }
+
+      /* ------ response */
+      .response {
+        display: flex;
+        justify-content: center;
+        margin-top: 33px;
+        width: 100%;
+
+        .error_container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 710px;
+          height: 88px;
+          border-radius: 10px;
+
+          background-color: var(--light-grey);
+
+          h3 {
+            width: 510px;
+            text-align: center;
+
+            font-weight: 400;
+            font-size: 20px;
+
+            color: red;
+          }
+        }
+
+        .response_container {
+          display: flex;
+
+          align-items: center;
+
+          width: 100%;
+          height: 257px;
+
+          border-radius: 25px;
+          background-color: var(--light-grey);
+
+          .user_avatar {
+            width: 220px;
+            height: 220px;
+
+            margin-left: 33px;
+
+            border-radius: 50%;
+            border: 3px solid var(--primary);
+
+            overflow: hidden;
+
+            img {
+              width: 100%;
+
+              object-fit: cover;
+              display: block;
+            }
+          }
+
+          .response_text {
+            margin-left: 32px;
+
+            width: 448px;
+            height: 123px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            color: black;
+
+            h3 {
+              font-weight: 700;
+              font-size: 20px;
+            }
+
+            p {
+              font-weight: 300;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
